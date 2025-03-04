@@ -123,3 +123,18 @@ main {
 .badge.editorial {
     background-color: #44a9f9;
 }
+.badge.q1-goals {
+    background-color: #a272fa;
+}
+.badge.recruting {
+    background-color: #66bba2;
+}
+.badge.mobile {
+    background-color: #efa236;
+}
+.badge.websites {
+    background-color: #d666a0;
+}
+.badge.sales {
+    background-color: #afcb20;
+}
