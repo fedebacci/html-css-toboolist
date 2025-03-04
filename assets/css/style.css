@@ -23,14 +23,14 @@
     border: 1px solid;
 }
 .button.button-fill {
-    background-color: #44a9f8;
-    border-color: #44a9f8;
+    background-color: #44AEEC;
+    border-color: #44AEEC;
     color: #fff;
 }
 .button.button-outline {
     background-color: transparent;
-    border-color: #dbdbdb;
-    color: #dbdbdb;
+    border-color: #CDCBCC;
+    color: #CDCBCC;
 }
 /* Titoli */
 /* Stile del titolo della pagina (a fianco del logo) */
@@ -44,8 +44,9 @@ h2 {
 }
 /* Stile dei testi delle task */
 p {
+    margin-top: 1rem;
+    font-size: 1.1rem;
     font-family: sans-serif;
-    margin-top: .75rem;
 }
 
 
@@ -58,7 +59,7 @@ header {
     align-items: center;
     gap: .5rem;
     /* Stile dell'header */
-    background-color: #fefefe;
+    background-color: #FFFFFF;
 }
 
 
@@ -66,7 +67,7 @@ header {
 /* ====== MAIN ====== */
 main {
     padding: 2rem 0;
-    background-color: #f7f7f7;
+    background-color: #F6F8FA;
 }
 
 
@@ -78,7 +79,7 @@ main {
 }
 /* Marker della sezione */
 .section-marker {
-    font-size: .8em;
+    font-size: .66em;
     transform: skew(.7);
     transform-origin: bottom;
 }
@@ -103,38 +104,37 @@ main {
 }
 /* Colore del marker success */
 .task-marker.success {
-    /* color: #98bbb0; */
-    color: rgb(21, 184, 21);
+    color: #8CADA2;
 }
 /* Colore del marker error */
 .task-marker.error {
-    /* color: #a29797; */
-    color: firebrick;
+    color: #8F5E65;
 }
 /* Badge */
 .badge {
-    padding: .5rem .75rem;
-    border-radius: .75rem;
+    padding: .4rem .66rem;
+    border-radius: .6rem;
 
     /* Tipografia */
     font-size: .7rem;
+    font-weight: bold;
     color: #fff;
 }
 .badge.editorial {
-    background-color: #44a9f9;
+    background-color: #4AA2ED;
 }
 .badge.q1-goals {
-    background-color: #a272fa;
+    background-color: #9E76EC;
 }
-.badge.recruting {
-    background-color: #66bba2;
+.badge.recruiting {
+    background-color: #61BEA8 ;
 }
 .badge.mobile {
-    background-color: #efa236;
+    background-color: #EDA436 ;
 }
-.badge.websites {
-    background-color: #d666a0;
+.badge.website {
+    background-color: #D4699F;
 }
 .badge.sales {
-    background-color: #afcb20;
+    background-color: #B0CA2B;
 }
