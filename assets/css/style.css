@@ -1,5 +1,32 @@
+/* ====== RESET ====== */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+
+
+/* ===== BODY ===== */
+body {
+    /* Stile del body */
+    background-color: #f7f7f7;
+}
+
+
+
+/* ====== HEADER ====== */
+header {
+    padding: 1rem;
+    /* Header flex per posizionamento di logo e titolo */
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    /* Stile dell'header */
+    background-color: #fefefe;
+}
+/* Stile del titolo */
+h1 {
+    font-family: sans-serif;
+    font-size: 2.5rem;
 }
