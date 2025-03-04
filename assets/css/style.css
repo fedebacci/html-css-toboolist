@@ -32,6 +32,21 @@
     border-color: #dbdbdb;
     color: #dbdbdb;
 }
+/* Titoli */
+/* Stile del titolo della pagina (a fianco del logo) */
+h1 {
+    font-family: sans-serif;
+    font-size: 2.5rem;
+}
+/* Stile dei titoli delle sezioni di task */
+h2 {
+    font-family: sans-serif;
+}
+/* Stile dei testi delle task */
+p {
+    font-family: sans-serif;
+    margin-top: .75rem;
+}
 
 
 
@@ -45,12 +60,6 @@ header {
     /* Stile dell'header */
     background-color: #fefefe;
 }
-/* Stile del titolo */
-h1 {
-    font-family: sans-serif;
-    font-size: 2.5rem;
-}
-
 
 
 
@@ -58,4 +67,59 @@ h1 {
 main {
     padding: 2rem 0;
     background-color: #f7f7f7;
+}
+
+
+
+/* ====== LISTA ====== */
+/* Spaziatura delle sezioni della lista */
+.todo-section {
+    margin-top: 2.5rem;
+}
+/* Marker della sezione */
+.section-marker {
+    font-size: .8em;
+    transform: skew(.7);
+    transform-origin: bottom;
+}
+/* Marker del task */
+.task-marker {
+    /* Tipografia */
+    font-weight: bold;
+    font-size: .7em;
+
+    /* Bordo, forma e dimensione */
+    width: 1.1rem;
+    aspect-ratio: 1;
+    border: 1px solid;
+    border-radius: 50%;
+
+    /* Spazio dalla voce del task */
+    margin-right: .5rem;
+
+    /* Centratura dell'elemento grafico */
+    display: inline-grid;
+    place-items: center;
+}
+/* Colore del marker success */
+.task-marker.success {
+    /* color: #98bbb0; */
+    color: rgb(21, 184, 21);
+}
+/* Colore del marker error */
+.task-marker.error {
+    /* color: #a29797; */
+    color: firebrick;
+}
+/* Badge */
+.badge {
+    padding: .5rem .75rem;
+    border-radius: .75rem;
+
+    /* Tipografia */
+    font-size: .7rem;
+    color: #fff;
+}
+.badge.editorial {
+    background-color: #44a9f9;
 }
